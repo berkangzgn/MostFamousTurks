@@ -17,19 +17,19 @@ struct DetailedView: View {
             
             picView(image: Image(selectedLeader.picName))
                 .frame(width: UIScreen.main.bounds.width*0.9, height: UIScreen.main.bounds.height*0.25, alignment: .center)
-                .offset(y: UIScreen.main.bounds.height * -0.15)
+                .offset(y: UIScreen.main.bounds.height * -0.20)
         
             Text(selectedLeader.name)
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .foregroundColor(Color(hue: 0.043, saturation: 1.0, brightness: 0.878))
-                .offset(y: UIScreen.main.bounds.height * -0.1)
+                .offset(y: UIScreen.main.bounds.height * -0.17)
             Text(selectedLeader.dt)
                 .foregroundColor(Color.gray)
-                .offset(y: UIScreen.main.bounds.height * -0.1)
+                .offset(y: UIScreen.main.bounds.height * -0.16)
             Text(selectedLeader.desc)
                 .frame(width: UIScreen.main.bounds.width*0.9, height: UIScreen.main.bounds.height*0.3, alignment: .center)
-                .offset(y: UIScreen.main.bounds.height * -0.1)
+                .offset(y: UIScreen.main.bounds.height * -0.16)
         }
     }
 }

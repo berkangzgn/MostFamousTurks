@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0489C061279ADB010073BD89 /* MostFamousTurksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489C060279ADB010073BD89 /* MostFamousTurksApp.swift */; };
-		0489C063279ADB010073BD89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489C062279ADB010073BD89 /* ContentView.swift */; };
+		0489C063279ADB010073BD89 /* ListName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489C062279ADB010073BD89 /* ListName.swift */; };
 		0489C065279ADB0A0073BD89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0489C064279ADB0A0073BD89 /* Assets.xcassets */; };
 		0489C068279ADB0A0073BD89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0489C067279ADB0A0073BD89 /* Preview Assets.xcassets */; };
 		0489C06F279ADD800073BD89 /* Leaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489C06E279ADD800073BD89 /* Leaders.swift */; };
@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		0489C05D279ADB010073BD89 /* MostFamousTurks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MostFamousTurks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0489C060279ADB010073BD89 /* MostFamousTurksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostFamousTurksApp.swift; sourceTree = "<group>"; };
-		0489C062279ADB010073BD89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0489C062279ADB010073BD89 /* ListName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListName.swift; sourceTree = "<group>"; };
 		0489C064279ADB0A0073BD89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0489C067279ADB0A0073BD89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0489C06E279ADD800073BD89 /* Leaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leaders.swift; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				0489C060279ADB010073BD89 /* MostFamousTurksApp.swift */,
-				0489C062279ADB010073BD89 /* ContentView.swift */,
+				0489C062279ADB010073BD89 /* ListName.swift */,
 				04B9A836279AF5DA00EDF64F /* DetailedView.swift */,
 				04B9A838279AF90400EDF64F /* picView.swift */,
 				0489C070279AE2AD0073BD89 /* mapView.swift */,
@@ -149,7 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0489C063279ADB010073BD89 /* ContentView.swift in Sources */,
+				0489C063279ADB010073BD89 /* ListName.swift in Sources */,
 				0489C071279AE2AD0073BD89 /* mapView.swift in Sources */,
 				04B9A837279AF5DA00EDF64F /* DetailedView.swift in Sources */,
 				04B9A839279AF90400EDF64F /* picView.swift in Sources */,
