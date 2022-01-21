@@ -19,17 +19,16 @@ struct DetailedView: View {
                 .frame(width: UIScreen.main.bounds.width*0.9, height: UIScreen.main.bounds.height*0.25, alignment: .center)
                 .offset(y: UIScreen.main.bounds.height * -0.20)
         
-            Text(selectedLeader.name)
-                .font(.largeTitle)
-                .fontWeight(.bold)
-                .foregroundColor(Color(hue: 0.043, saturation: 1.0, brightness: 0.878))
-                .offset(y: UIScreen.main.bounds.height * -0.17)
-            Text(selectedLeader.dt)
-                .foregroundColor(Color.gray)
-                .offset(y: UIScreen.main.bounds.height * -0.16)
-            Text(selectedLeader.desc)
-                .frame(width: UIScreen.main.bounds.width*0.9, height: UIScreen.main.bounds.height*0.3, alignment: .center)
-                .offset(y: UIScreen.main.bounds.height * -0.16)
+            Group { // DRY özelliğini kormak için birden fazla satıra hükmedebilme bu kod sayesinde olur
+                Text(selectedLeader.name)
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color(hue: 0.043, saturation: 1.0, brightness: 0.878))
+                Text(selectedLeader.dt)
+                    .foregroundColor(Color.gray)
+                Text(selectedLeader.desc)
+                    .frame(width: UIScreen.main.bounds.width*0.9, height: UIScreen.main.bounds.height*0.3, alignment: .center)
+            }.offset(y: UIScreen.main.bounds.height * -0.17)
         }
     }
 }
